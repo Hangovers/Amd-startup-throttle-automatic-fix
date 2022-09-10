@@ -1,6 +1,7 @@
 # Autofix for AMD 5xxx cpus sometimes running at less than 1 GHZ
 
 **If you only want to see how to fix the problem go straight to** [Automating the fix.](#automating-the-fix)
+**Be sure to read the** [Disclaimer.](#disclaimer)
 
 ## The problem:
 I found out about this after upgrading the CPU from a Ryzen 5 2600 to a Ryzen 5 5600x on an Asrock B450 pro4.
