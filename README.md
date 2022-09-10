@@ -1,4 +1,4 @@
-# Autofix for AMD 5xxx cpus sometimes running at less than 1 GHZ
+# Autofix for AMD 5xxx cpus sometimes throttling themselves at startup
 
 **If you only want to see how to fix the problem go straight to** [Automating the fix.](#automating-the-fix)
 **Be sure to read the** [Disclaimer.](#disclaimer)
@@ -38,6 +38,10 @@ Thanks to [this thread](https://www.reddit.com/r/Amd/comments/qn8o7n/hidden_comm
 Even if this process does the job, I know it can be refined.
 Feel free to make pull requests or your own repo. (thanks are welcome if this process helped you make your own version of the fix :D).
  Any pull requests with useful corrections or process refinment will be accepted.
+## Other tweaks
+For those of you who wish to make other tweaks to the cpu at startup, you can see all the other commands of this CLI ryzen master by using this command: 
+	   `"PATH\OF\INSTALLATION\ASRock Utility\A-Tuning\Bin\AMDRMCLI.exe" -L`
+You can then just add them after the command to disable prochot if you want them to run at startup or create other batch files and task to run them at your conditions.
 ## License
 Not sure if I need to specify that but any contribution and this process are under MIT license.
 # DISCLAIMER
